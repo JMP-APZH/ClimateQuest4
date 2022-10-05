@@ -1,9 +1,9 @@
-import { Link, routes, Redirect } from '@redwoodjs/router'
-import { MetaTags } from '@redwoodjs/web'
-import climatechangebackgrounder from 'web/src/assets/climate-change-backgrounder.jpg'
+import { Link, routes, Redirect } from '@redwoodjs/router';
+import { MetaTags } from '@redwoodjs/web';
+import climatechangebackgrounder from 'web/src/assets/climate-change-backgrounder.jpg';
 //import App from '../../AppNovel.js'
 
-import { useState } from 'react'
+import { useState } from 'react';
 
 // const [userBy, setUserBy] = useState(false);
 
@@ -49,7 +49,7 @@ const HomePage = () => {
         />
         </div>
 
-        <div className=' absolute flex flex-col justify-center items-center pb-80 right-0 bottom-0 left-0 bg-blackOverlay'>
+        <div className='absolute flex flex-col justify-center items-center pb-80 right-0 bottom-0 left-0 bg-blackOverlay'>
       {/* <h1 className='text-green-500 text-3xl bg-gray-300'>HomePage</h1> */}
 
        <div className='p-4 border border-solid bg-gray-300'>
