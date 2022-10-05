@@ -39,7 +39,7 @@ const HomePage = () => {
     <iframe
       width="100%"
       length="100%"
-      src="http://localhost:8910/noveln"
+      src="/noveln"
     >
     </iframe>
     </div>
@@ -47,11 +47,11 @@ const HomePage = () => {
     <div className='-pb-96 bottom-0 grid -gap-20'>
 
     <div className='flex justify-center h-screen w-screen pl-96 pr-96 mb-0'>
-    {/* <iframe width="950em" length="100em" src="http://localhost:8910/mean_temp_switzerland.html"> */}
+    {/* <iframe width="950em" length="100em" src="/mean_temp_switzerland.html"> */}
     <iframe
       width="1500px"
       length="1500px"
-      src="http://localhost:8910/mean_temp_switzerland.html"
+      src="/mean_temp_switzerland.html"
       className='-pb-48 -pr-64 h-full w-full'>
     </iframe>
     </div>
@@ -60,7 +60,7 @@ const HomePage = () => {
     <iframe
       width="1500px"
       length="1500px"
-      src="http://localhost:8910/1994bern.png"
+      src="/1994bern.png"
       className='-pt-96 -pb-96 b'>
     </iframe>
     </div>
